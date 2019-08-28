@@ -1,4 +1,4 @@
-# Code Sshorting
+# Code Shorting
 Long Code to Short Code
 
 # 1. Submit larg FORM data with simple code
