@@ -1,11 +1,11 @@
-# code-shorting
+# Code Sshorting
 Long Code to Short Code
 
-# Submit larg FORM data with simple code
+# 1. Submit larg FORM data with simple code
 $( "form" ).on( "submit", function( event ) {
   console.log( $( this ).serializeArray() );
   event.preventDefault();
 });
 
-# Add --mysqli_real_escape_string-- in whole variable in one time
+# 2. Add --mysqli_real_escape_string-- in whole variable in one time
 foreach ($_POST as $key=>$value) { $_POST[$key] = mysqli_real_escape_string($connection, $value); }
